@@ -629,5 +629,8 @@ i {
         height: 260px;
 
     }
+    .maindiv{
+        height:auto;
+    }
 
 }
