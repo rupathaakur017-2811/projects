@@ -305,7 +305,7 @@ span:hover {
 
 .y {
     font-size: 25px;
-    margin: 0px 0px 0px 45px;
+    /* margin: 0px 0px 0px 45px; */
 }
 
 .z {
@@ -313,7 +313,7 @@ span:hover {
     color: white;
     width: 55%;
     height: 50px;
-    margin: 40px 0px 0px 60px;
+    /* margin: 40px 0px 0px 60px; */
     border-radius: 15px;
 }
 
@@ -469,7 +469,7 @@ i {
     }
 
     .org {
-        width: 55%;
+        width:60%;
         /* height: 231px; */
         /* background-image: url("https://static.vecteezy.com/system/resources/previews/040/190/917/large_2x/ai-generated-avocado-clip-art-free-png.png"); */
         /* background-size: cover;
@@ -482,15 +482,15 @@ i {
     height:100%;
 } */
     .org2 {
-        width: 45%;
+        width: 40%;
         /* height: 187px; */
         margin-right: 16px;
     }
 
     .z {
-        width: 75%;
+        width: 87%;
         height: 45px;
-        margin: 37px 0px 0px 35px;
+        margin: 25px 0px 0px 20px;
     }
 
 
