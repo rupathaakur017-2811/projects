@@ -1,0 +1,632 @@
+body {
+    background-color: green;
+    padding: 30px;
+}
+
+.maindiv {
+    background-color: rgb(152, 241, 152);
+    box-shadow: 5px 5px 17px 1px black;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar {
+    background: rgb(207, 228, 228);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: relative;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+#check {
+    display: none;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.nav-links li a:hover {
+    color: orange;
+}
+
+/* Hamburger Button */
+.menu-btn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.box2 {
+    width: 100%;
+    display: flex;
+}
+
+.div1 {
+    background-color: rgb(70, 202, 70);
+    width: 40%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.img1 {
+    /* background-color: lightgreen; */
+    width: 60%;
+    height: 350px;
+    box-shadow: 5px 5px 17px 1px black;
+    background-image: url("/images/Health_Benefits_of_Organic_Food_1400x.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 6s fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+h2 {
+    color: rgb(3, 49, 3);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+
+}
+
+p {
+    color: rgb(3, 49, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.a {
+    background-color: rgb(3, 49, 3);
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(223, 215, 215);
+    padding: 8px;
+}
+
+.a:hover {
+    background-color: black;
+}
+
+span:hover {
+    color: orange;
+}
+
+.box3 {
+    width: 100%;
+    height: 95px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.layer1 {
+    width: 100%;
+
+}
+
+.box4 {
+    display: flex;
+    gap:1rem;
+    padding:0px 10px;
+}
+
+.b {
+    width: 100%;
+    height: 270px;
+    /* margin: 10px; */
+    border-radius: 15px;
+}
+
+.img {
+    width: 100%;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 17px 1px black;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/032/019/655/small_2x/red-apples-in-a-wooden-bucket-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 5s fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.img2 {
+    width: 100%;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 17px 1px black;
+    background-image: url("/images/jar-honey-with-flowers-stick-honey_1278957-39.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 5s fadeOut;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.img3 {
+    width: 100%;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 17px 1px black;
+    background-image: url("/images/OIP.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 5s zoomIn;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.img4 {
+    width: 100%;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 17px 1px black;
+    background-image: url("/images/crunchy-roasted-chickpeas-1_2880x1920.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 5s zoomOut;
+}
+
+@keyframes zoomOut {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+.text {
+    text-align: center;
+    color: rgb(3, 49, 3);
+    font-size: 19px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.natural {
+    display: flex;
+    /* gap: 1rem */
+}
+
+.organic {
+    width: 50%;
+    height: 290px;
+    margin: 15px;
+    background-color: rgb(70, 202, 70);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.org {
+    width: 42%;
+    height: 264px;
+    border-radius: 15px;
+    background-image: url("/images/ai-generated-avocado-clip-art-free-png.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 2s slideLeft;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.org2 {
+    width: 60%;
+    height: 200px;
+
+}
+
+.y {
+    font-size: 25px;
+    margin: 0px 0px 0px 45px;
+}
+
+.z {
+    background-color: rgb(3, 49, 3);
+    color: white;
+    width: 55%;
+    height: 50px;
+    margin: 40px 0px 0px 60px;
+    border-radius: 15px;
+}
+
+.z:hover {
+    background-color: black;
+}
+
+.abc {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0px 0px 10px;
+
+}
+
+.abc:hover {
+    color: orange;
+}
+
+.organic1 {
+    width: 50%;
+    height: 290px;
+    margin: 15px;
+    background-color: rgb(70, 202, 70);
+    border-radius: 15px;
+    display: flex;
+}
+
+.vegetable {
+    font-size: 35px;
+}
+
+.org3 {
+    width: 55%;
+    height: 290px;
+    text-align: center;
+    padding: 20px;
+}
+
+.org4 {
+    width: 45%;
+    height: 290px;
+    border-radius: 15px;
+    background-image: url("/images/imgg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: 2s slideRight;
+    border-radius: 0px 15px 15px 0px;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translatex(300px);
+    }
+
+    to {
+        transform: translatex(0px);
+    }
+}
+
+.hh {
+    color: rgb(3, 49, 3);
+    font-size: 40px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pp {
+    color: rgb(3, 49, 3);
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.footer1 {
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.about {
+    background-color: rgb(3, 49, 3);
+    width: 37%;
+    height: 180px;
+}
+
+.links {
+    background-color: rgb(3, 49, 3);
+    width: 36%;
+    height: 180px;
+}
+
+.follow {
+    background-color: rgb(3, 49, 3);
+    width: 27%;
+    height: 180px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 10px 0px 0px 55px;
+}
+
+.paragraph {
+    color: white;
+    margin: 0px 0px 0px 9px;
+    font-size: 15px;
+    margin: 10px 0px 0px 55px;
+
+}
+
+i {
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.fa-facebook {
+    margin-left: 50px;
+}
+
+@media (max-width:768px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        background: rgb(207, 228, 228);
+        flex-direction: column;
+        text-align: center;
+        transition: .4s;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    #check:checked~.nav-links {
+        left: 0;
+    }
+
+    .org {
+        width: 55%;
+        /* height: 231px; */
+        /* background-image: url("https://static.vecteezy.com/system/resources/previews/040/190/917/large_2x/ai-generated-avocado-clip-art-free-png.png"); */
+        /* background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
+
+
+    }
+/* .natural{
+    height:100%;
+} */
+    .org2 {
+        width: 45%;
+        /* height: 187px; */
+        margin-right: 16px;
+    }
+
+    .z {
+        width: 75%;
+        height: 45px;
+        margin: 37px 0px 0px 35px;
+    }
+
+
+    .vegetable {
+        font-size: 19px;
+    }
+
+    .pp {
+        font-size: 18px;
+    }
+
+    p.abc {
+        font-size: 15px;
+    }
+
+
+    .org3 {
+        width: 50%;
+    }
+
+    h2.hh {
+        font-size: 30px;
+    }
+
+    .org4 {
+        width: 61%;
+    }
+
+    .box4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+  
+ 
+    }
+    
+/* 
+    .b {
+        width: 100%;
+    } */
+  
+}
+
+@media (max-width:426px) {
+    .div1 {
+        width: 100%;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    /* .layer1 {
+        height: 100%;
+    } */
+
+    .box2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 1rem; */
+    }
+
+    .box4 {
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .abc {
+        font-size: 20px;
+    }
+
+    .natural {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .b {
+        width: 95%;
+        margin: 5px;
+    }
+
+    .organic {
+        width: 97%;
+        margin: 5px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 1rem; */
+        /* height: 540px; */
+    }
+
+    .footer1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgb(3, 49, 3);
+    }
+
+    .about,
+    .links,
+    .follow {
+        width: 100%;
+    }
+
+
+    .org {
+        width: 100%;
+        height: 230px;
+    }
+
+    .y {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .organic1 {
+        width: 97%;
+        height: 260px;
+        margin: 5px;
+    }
+
+    .org3 {
+        width: 50%;
+    }
+
+    .hh {
+        font-size: 23px;
+    }
+
+    .org4 {
+        width: 50%;
+        height: 260px;
+
+    }
+
+}
