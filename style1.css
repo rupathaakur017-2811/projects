@@ -592,6 +592,7 @@ i {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         background-color: rgb(3, 49, 3);
+        height:100%;
     }
 
     .about,
